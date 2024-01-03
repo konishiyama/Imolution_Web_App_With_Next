@@ -1,8 +1,8 @@
 import PropTypes from "prop-types"
 import React from "react"
 import { FirebaseContext, useAuth } from "./Firebase"
-import Footer from "./Footer"
-import Header from "./header"
+// import Footer from "./Footer"
+// import Header from "./header"
 import { NextSeo } from "next-seo"
 
 const Layout = ({ children }) => {
@@ -38,9 +38,9 @@ const Layout = ({ children }) => {
           site_name: "ふくむらさきの山口農園",
         }}
       />
-      <Header />
+      {/* <Header />
       <main>{children}</main>
-      <Footer />
+      <Footer /> */}
     </FirebaseContext.Provider>
   )
 }
